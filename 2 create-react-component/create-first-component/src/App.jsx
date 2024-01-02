@@ -5,8 +5,8 @@ function App() {
       <h1>
         This is best the react app
       </h1>
-      <MyButton/>
-      <MyButton2/>
+      <MyButton></MyButton>
+      <MyButton2></MyButton2>
     </div>
 }
 
