@@ -1,4 +1,5 @@
 import MyButton, {MyButton2} from "./MyButton"; //Non default components define in curly braces
+import Hello from "./Hello";
 
 function App() {
   return <div>
@@ -7,6 +8,7 @@ function App() {
       </h1>
       <MyButton></MyButton>
       <MyButton2></MyButton2>
+      <Hello></Hello>
     </div>
 }
 
