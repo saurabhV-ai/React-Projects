@@ -1,7 +1,13 @@
+import MyButton, {MyButton2} from "./MyButton"; //Non default components define in curly braces
+
 function App() {
-  return <h1>
-      This is best react app
-    </h1>
+  return <div>
+      <h1>
+        This is best the react app
+      </h1>
+      <MyButton/>
+      <MyButton2/>
+    </div>
 }
 
 export default App;
