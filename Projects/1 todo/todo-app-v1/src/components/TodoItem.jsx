@@ -5,27 +5,27 @@ function TodoItem() {
   let todoDate2 = '04/10/2023'
 
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
+    <div className="container">
+      <div className="row kg-row">
+        <div className="col-sm-6">
           {todoName1}
         </div>
-        <div class="col-sm-4">
+        <div className="col-sm-4">
           {todoDate1}
         </div>
-        <div class="col-sm-2">
-          <button type="button" class="btn btn-danger">Delete</button>
+        <div className="col-sm-2">
+          <button type="button" className="btn btn-danger kg-button">Delete</button>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
+      <div className="row kg-row">
+        <div className="col-sm-6">
           {todoName2}
         </div>
-        <div class="col-sm-4">
+        <div className="col-sm-4">
           {todoDate2}
         </div>
-        <div class="col-sm-2">
-          <button type="button" class="btn btn-danger">Delete</button>
+        <div className="col-sm-2">
+          <button type="button" className="btn btn-danger kg-button">Delete</button>
         </div>
       </div>
     </div>

@@ -1,14 +1,14 @@
 function AddTodo() {
-  return <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
+  return <div className="container">
+    <div className="row kg-row">
+      <div className="col-sm-6">
         <input type="text" placeholder="Enter todo here" />
       </div>
-      <div class="col-sm-4">
+      <div className="col-sm-4">
         <input type="date" />
       </div>
-      <div class="col-sm-2">
-        <button type="button" class="btn btn-success">Add</button>
+      <div className="col-sm-2">
+        <button type="button" className="btn btn-success kg-button">Add</button>
       </div>
     </div>
   </div>
