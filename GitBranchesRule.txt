@@ -1,0 +1,6 @@
+main - branch with all latest code - 
+base - branch with study code (i.e. app with vite, with boostrap, react level 2 etc) - 
+projects - branch with all latest projects
+
+Separate branches will have only specific code with versions and will be created with command:
+git checkout --orphan projects/<new branch name>
