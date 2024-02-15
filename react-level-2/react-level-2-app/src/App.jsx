@@ -3,6 +3,8 @@ import './App.css'
 import React from 'react'; //Imported React to use <React.Fragment>
 
 function App() {
+  let foodItems = ['Dal','Green Vegetable','Roti','Salad','Milk']
+
   return(
 // div creates extra node in DOM
 // <div>
@@ -11,12 +13,10 @@ function App() {
 // Empty tag is mostly used react fragment and It dont need to import React
   <>
     <h1>Healthy Food</h1>
-    <ul class="list-group">
-      <li class="list-group-item">Dal</li>
-      <li class="list-group-item">Green vegetable</li>
-      <li class="list-group-item">Roti</li>
-      <li class="list-group-item">Salad</li>
-      <li class="list-group-item">Milk</li>
+    <ul className="list-group">
+      {foodItems.map(item => (
+        <li key={item} className='list-group-item'>{item}</li>
+      ))}
     </ul>
   </>
 // </React.Fragment>
