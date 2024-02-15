@@ -1,9 +1,15 @@
 This app contains following points:
 1. Fragment:
-    i)  <> </> ---OR--- <React.Fragment> </React.Fragment>
-    ii) Fragment doesn't create extra node inside DOM like <div> element
+   i) <> </> ---OR--- <React.Fragment> </React.Fragment>
+  ii) Fragment doesn't create extra node inside DOM like <div> element
 
-2. Map: Rendering list using map method
-3. Conditional Rendering
+2. Map: Rendering list from array data using map method
+3. Conditional Rendering:
+    methods:
+    i) if-else statements
+   ii) Ternary operators: Quick way to choose between two options
+       {condition ? if true : if false}
+  iii) Logical operators: Useful for rendering content when condtion is true
+       {condution && if true}
 4. Passing Data via Props
 5. CSS modules
